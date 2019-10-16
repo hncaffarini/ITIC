@@ -8,7 +8,7 @@ app.on('ready', () => {
 
 	ventana.setMenu(null);
 	ventana.setTitle("ITIC");
-	ventana.loadURL('https://economicasuba.sharepoint.com/sites/Sistemas/AULA-208026/');
+	ventana.loadURL('https://economicasuba.sharepoint.com/sites/Sistemas/AULA-208026/Paginas/Gral-GuiaCurso.aspx');
 
 	ventana.on('closed', () => {
 		ventana = null;
